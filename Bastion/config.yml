@@ -10,7 +10,7 @@ BastionBlock:
   material: SPONGE
   #If squarefield is set to wrong, the field will be a circle
   squarefield: true
-  effectRadius: 10
+  effectRadius: 100
   includeYlevel: true
   startScaleFactor: 100
   finalScaleFactor: 0.2
@@ -20,7 +20,7 @@ BastionBlock:
   destroyOnRemove: true
   blocksToErode: 1
   EnderPearls:
-    preventEnderPearl: true 
+    preventEnderPearl: false
     block_midair: false
     scaleFac: 1
     requireMaturity: true 
