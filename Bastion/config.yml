@@ -21,6 +21,7 @@ BastionBlock:
   blocksToErode: 1
   EnderPearls:
     preventEnderPearl: false
+    #Town bastions don't prevent pearls.
     block_midair: false
     scaleFac: 1
     requireMaturity: true 
